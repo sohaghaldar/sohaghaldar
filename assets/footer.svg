@@ -1,0 +1,21 @@
+<svg width="100%" height="90" viewBox="0 0 1000 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0" y1="0" x2="1000" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#060911" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+
+    <linearGradient id="footerWave" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="90" fill="url(#footerBg)" rx="10" />
+  <path d="M0 25 C 250 55, 450 10, 700 40 C 850 65, 950 20, 1000 30 L 1000 0 L 0 0 Z" fill="url(#footerWave)" />
+  <text x="500" y="58" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#94a3b8" letter-spacing="1">
+    Crafted with 💙 by SoHag Haldar • Built for High Performance
+  </text>
+</svg>

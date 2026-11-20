@@ -3,7 +3,7 @@
 <!-- ============================================================================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2&height=220&section=header&text=Sohag%20Haldar&fontSize=46&fontAlignY=38&desc=Software%20Developer%20%7C%20Full-Stack%20%26%20Desktop%20UI%20%7C%20Bot%20Architect&descAlignY=58&descAlign=50" alt="Sohag Haldar Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/sohaghaldar/sohaghaldar/main/assets/header.svg" alt="Sohag Haldar Banner" width="100%" />
 </p>
 
 <p align="center">
@@ -23,11 +23,6 @@
 
 ## 🏆 Achievements & Milestones (অর্জনসমূহ)
 
-<p align="center">
-  <a href="https://github.com/sohaghaldar">
-    <img src="https://github-profile-trophy.vercel.app/?username=sohaghaldar&theme=onedark&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
-  </a>
-</p>
 
 <div align="center">
 
@@ -158,5 +153,5 @@ GitHub Profile: https://github.com/sohaghaldar
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2&height=120&section=footer" alt="Footer Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/sohaghaldar/sohaghaldar/main/assets/footer.svg" alt="Footer Banner" width="100%" />
 </p>

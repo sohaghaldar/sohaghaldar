@@ -1,0 +1,106 @@
+<svg width="100%" height="240" viewBox="0 0 1000 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1000" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#060911" />
+    </linearGradient>
+
+    <!-- Wave 1 Gradient -->
+    <linearGradient id="wave1Grad" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Wave 2 Gradient -->
+    <linearGradient id="wave2Grad" x1="1000" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.15" />
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#00f5d4" stop-opacity="0.3" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+
+    <linearGradient id="subGrad" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="15%" stop-color="#00f5d4" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="85%" stop-color="#a78bfa" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes floatParticle {
+      0%, 100% { transform: translateY(0px); opacity: 0.3; }
+      50% { transform: translateY(-8px); opacity: 0.8; }
+    }
+    .p1 { animation: floatParticle 3s ease-in-out infinite; }
+    .p2 { animation: floatParticle 4s ease-in-out infinite 1s; }
+    .p3 { animation: floatParticle 3.5s ease-in-out infinite 0.5s; }
+  </style>
+
+  <!-- Base Canvas Background -->
+  <rect width="1000" height="240" fill="url(#bgGrad)" rx="12" />
+
+  <!-- Subtle Cyber Tech Grid Pattern -->
+  <g opacity="0.08" stroke="#38bdf8" stroke-width="0.8">
+    <line x1="100" y1="0" x2="100" y2="240" />
+    <line x1="200" y1="0" x2="200" y2="240" />
+    <line x1="300" y1="0" x2="300" y2="240" />
+    <line x1="400" y1="0" x2="400" y2="240" />
+    <line x1="500" y1="0" x2="500" y2="240" />
+    <line x1="600" y1="0" x2="600" y2="240" />
+    <line x1="700" y1="0" x2="700" y2="240" />
+    <line x1="800" y1="0" x2="800" y2="240" />
+    <line x1="900" y1="0" x2="900" y2="240" />
+    <line x1="0" y1="50" x2="1000" y2="50" />
+    <line x1="0" y1="100" x2="1000" y2="100" />
+    <line x1="0" y1="150" x2="1000" y2="150" />
+  </g>
+
+  <!-- Flowing Mesh Organic Waves -->
+  <path d="M0 160 C 250 120, 450 210, 700 150 C 850 110, 950 170, 1000 160 L 1000 240 L 0 240 Z" fill="url(#wave1Grad)" />
+  <path d="M0 190 C 200 230, 400 150, 650 200 C 800 230, 920 180, 1000 210 L 1000 240 L 0 240 Z" fill="url(#wave2Grad)" />
+  <path d="M0 220 C 300 190, 600 240, 1000 220 L 1000 240 L 0 240 Z" fill="#0d1117" opacity="0.9" />
+
+  <!-- Glowing Constellation Dots -->
+  <circle cx="150" cy="70" r="2.5" fill="#00f5d4" class="p1" />
+  <circle cx="280" cy="40" r="2" fill="#38bdf8" class="p2" />
+  <circle cx="820" cy="60" r="2.5" fill="#ec4899" class="p3" />
+  <circle cx="720" cy="90" r="2" fill="#00f5d4" class="p1" />
+  <circle cx="890" cy="120" r="3" fill="#818cf8" class="p2" />
+  <circle cx="90" cy="140" r="2" fill="#38bdf8" class="p3" />
+
+  <!-- Main Name Title -->
+  <text x="500" y="96" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="800" fill="url(#textGrad)" letter-spacing="1.5">
+    Sohag Haldar
+  </text>
+
+  <!-- Subtitle Tagline -->
+  <text x="500" y="140" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" fill="url(#subGrad)" letter-spacing="2.5">
+    SOFTWARE DEVELOPER • FULL-STACK &amp; DESKTOP UI • BOT ARCHITECT
+  </text>
+
+  <!-- Interactive Domain Pills -->
+  <g transform="translate(260, 168)" opacity="0.95">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="105" height="26" rx="13" fill="#1e293b" stroke="#00f5d4" stroke-width="1.2" />
+    <text x="52.5" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" fill="#00f5d4">🌐 Full-Stack</text>
+
+    <!-- Pill 2 -->
+    <rect x="115" y="0" width="115" height="26" rx="13" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" />
+    <text x="172.5" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" fill="#38bdf8">🖥️ Desktop UI</text>
+
+    <!-- Pill 3 -->
+    <rect x="240" y="0" width="115" height="26" rx="13" fill="#1e293b" stroke="#c084fc" stroke-width="1.2" />
+    <text x="297.5" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" fill="#c084fc">🤖 AI &amp; Bots</text>
+
+    <!-- Pill 4 -->
+    <rect x="365" y="0" width="115" height="26" rx="13" fill="#1e293b" stroke="#fbbf24" stroke-width="1.2" />
+    <text x="422.5" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" fill="#fbbf24">⚡ Open Source</text>
+  </g>
+</svg>
